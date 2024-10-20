@@ -1,49 +1,78 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    background-color: rgb(255, 255, 255);
+  font-family: Calibri, sans-serif;
+  margin: 0;
+  background-color: #dcd6d6;
 
-    
-  }
   
+}
+
 
 header{
-    width:100%;
-    background-color: hsl(0, 0%, 20%);
-    overflow:hidden;
-  }
+  width:100%;
+  background-color: hsl(0, 0%, 22%);
+  overflow:hidden;
+}
 
 header img{
-  float: left;
-  width: 100px;
-  height: 100px;
+float: left;
+width: 100px;
+height: 100px;
 }
 
 section {
-  margin: auto;
-  max-width: 80%;
-  height: auto;
-  overflow: auto;
+margin: auto;
+max-width: 80%;
+height: auto;
+overflow: auto;
 }
 
 
 .card{
-  background-color: rgb(29, 29, 29);
-  color: white;
-  width: 23%;
-  padding: 10px;
-  box-sizing: border-box;
-  margin:10px;
-  float: left;
-  text-align: center;
-  border-radius: 5px;
-  overflow: auto;
+background-color: rgb(29, 29, 29);
+color: white;
+width: 23%;
+padding: 10px;
+box-sizing: border-box;
+margin:10px;
+float: left;
+text-align: center;
+border-radius: 5px;
+overflow: auto;
 }
 
 
 
 @media screen and (max-width: 850px) {
-  .card {
-    width: 100%;
-  }
+.card {
+  width: 100%;
+}
+}
+
+form {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #666;
 }
